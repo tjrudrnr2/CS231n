@@ -21,7 +21,8 @@ train data를 memorize한 후 그 중에서 test data와 가장 비슷한 이미
 ## Hyperparameter란?
 K를 몇으로 할 지, metric은 어떤 방식으로 선택할 지등 사용자에 의해 좌우되는 값이 **Hyperparameter**이고 이 값을 setting 하기 위해 필요한 것이 train, validation, test set으로 데이터를 나누는 것. 여기서 더 나아가면 K-fold 방식이 된다.
 ## Linear Classification
-parametric approach의 기본적인 모델로 보통 $f(x, W)=Wx+b$로 나타낸다. x는 input이며 W는 $\theta$로도 표현가능.
+parametric approach의 기본적인 모델로 보통 $f(x, W)=Wx+b$로 나타낸다. 
+x는 input이며 W는 $\theta$로도 표현가능.
 ![image](https://user-images.githubusercontent.com/70709889/175791658-40360b1a-39ae-453d-97a6-0a1501ea89a3.png)
 
 앞서 NN처럼 train data를 memorize하지 않고 가중치로 요약한다. b는 행렬곱 이후 각 class에 대해 bias를 준다.
