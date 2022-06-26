@@ -1,5 +1,13 @@
 # Lecture 3
 
+## Summary
+- classifer를 통해 계산한 Wx 값으로 loss를 계산하여 classifier를 qualify
+  - 위 과정에서 regularization의 필요성
+- loss를 최소화하기 위한 방법
+- Feature를 추출하기 위한 Ho, BOW 기법
+
+## Content
+
 ![image](https://user-images.githubusercontent.com/70709889/175818475-4b272474-ebbd-45b7-80d2-15aef3435000.png)
 
 위와 같이 이미지 별로 class score가 나왔다고 해보자. 이는 각 이미지에 대해 해당 class일 확률을 의미한다. 따라서, score 값들로 classifier를 qualify 하고자 한다.
