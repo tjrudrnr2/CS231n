@@ -29,3 +29,7 @@ $\frac{df}{dy}$는 각각 -4, -4라는 것을 알 수 있다.
 ![image](https://user-images.githubusercontent.com/70709889/176005533-5cb16f3f-b291-49cc-b9af-f1e7e983f7a5.png)
 
 만약 backward 과정에서 들어오는 미분 값이 두개 이상이라면 모두 더하면 된다.
+### Neural Networks
+![image](https://user-images.githubusercontent.com/70709889/176006598-ad36c084-d434-4eb4-a791-2ab66a17e112.png)
+
+위와 같은 network는 input layer를 제외하고 3-layer Neural Net이라고 부르며 각 hidden layer는 모든 노드 간에 연결이 존재하기 때문에 **Fully Connected Layer**라고 부른다.
