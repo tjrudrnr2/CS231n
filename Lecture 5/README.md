@@ -1,6 +1,9 @@
 # Lectre 5
 
 ## Summary
+- Fully Conected Layer
+- Convolution Layer
+- Pooling Layer
 
 ## Content
 ### Fully Conected Layer
